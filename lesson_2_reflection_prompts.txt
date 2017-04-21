@@ -1,0 +1,45 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+	
+	You can pick files which you want to check and possibly commit one by one,
+	while they are in the staging area it is very easy to check for differences
+	between them and most recent commit by using git diff -staged, when you are
+	sure that you have added the files which would make one logical change you
+	can commit. 
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+	Well, there were examples given such as when trying an experimental feature
+	or when wanting to label a certain commit as a working version. They would
+	help by providing the possibility to easily navigate through these dedicated
+	commits and keeping the commit history easily trackable.
+
+How do the diagrams help you visualize the branch structure?
+
+	Having a diagram helps to see how branches are related to each other e. i.
+	which commit was the last common commit for both branches, also, it helps
+	identifying unreachable commits.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+	When we merget two branches together we create a new commit which has several
+	parent commits - each tip of merged branches, thus it makes sense to draw the
+	diagrama in a way that represents this multi-parented commit. Also it is worth 
+	noting that the merge commit's and all its following commits' "git log" will
+	represent commits of merged branches in chronological order e. i. they will be
+	interleaved.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+	Automatic merging is more efficient as it saves time, but it's not 100% of the
+	time correct, meanwhile manual merging is made implicitly be a person, thus it
+	is more reliable, but it comes with a decrese in efficiency as it requires time
+	to inspect all the changes and choose them manually.
