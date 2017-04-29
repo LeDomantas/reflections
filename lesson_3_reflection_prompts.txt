@@ -25,7 +25,10 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    If you have to go offline for a while, but would like to have the latest changes
+    at the time when you were online for the last time you greatly benefit from
+    having a copy of the last known state of the remote as you could solve all the
+    conflicts at that version while being offline.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
