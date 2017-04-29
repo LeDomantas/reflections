@@ -42,4 +42,10 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    In seperate branch when the master branch is used as production branch i.e.
+    the branch that is used by client or public and must always work. Also it would
+    be easier to work on seperate branches when different features or different
+    versions of product are developed synchronously. On the other hand, it would be 
+    easier to use a single branch (master by default) when working on "linear" 
+    project - one that is being developed with a single already defined purpose with
+    a single release date and preferrably by a single person.
