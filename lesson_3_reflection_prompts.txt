@@ -33,7 +33,11 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Every single collaborator would have a copy of the project and would have to
+    update others when they make any changes. It would be way harder to work
+    synchronously as you would have to track all the changes manually. Although,
+    it would be easier to start as it would not require knowledge of some advanced
+    tools like Git or GitHub.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
